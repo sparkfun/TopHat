@@ -1,3 +1,8 @@
+/*
+ This is the original code written by Dave Clausen http://dclausen.net/ for the wedding top hat.
+ 
+ https://learn.sparkfun.com/tutorials/das-blinken-top-hat
+*/
 
 
 #include <avr/pgmspace.h>
@@ -167,13 +172,3 @@ void loop() {
   }
   delay(10);
 }
-
-
-
-
-
-
-
-
-
-
