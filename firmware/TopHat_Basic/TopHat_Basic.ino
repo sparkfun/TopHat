@@ -15,7 +15,10 @@
 
 */
 
-#include <SoftPWM.h>
+// SoftPWM: https://code.google.com/p/rogue-code/wiki/SoftPWMLibraryDocumentation is a library 
+// written by Brett Hagman of [Rogue Robotics](http://www.roguerobotics.com)
+// Very handy lib!
+#include <SoftPWM.h> //Uses library from https://code.google.com/p/rogue-code/wiki/SoftPWMLibraryDocumentation
 
 const int chan0 = 2;
 const int chan1 = 3;
@@ -35,7 +38,8 @@ const int accelZ = A1;
 
 float aX, aY, aZ;
 
-int brightLevel = 9; //5% is still very noticeable. 40% or more is basically full brightness
+//int brightLevel = 9; //5% is still very noticeable. 40% or more is basically full brightness
+int brightLevel = 50; //For photos
 
 const int statLED = A0;
 
